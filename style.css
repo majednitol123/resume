@@ -143,7 +143,7 @@ body {
 .cv-page {
   width: 210mm;
   min-height: 297mm;
-  padding: 15mm 17mm 15mm 17mm;
+  padding: 10mm 15mm 9mm 15mm;
   background-color: var(--bg-page);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 1px 4px rgba(0, 0, 0, 0.04);
   position: relative;
@@ -168,20 +168,20 @@ body {
 }
 
 .candidate-name {
-  font-size: 29px;
+  font-size: 26px;
   font-weight: 800;
   letter-spacing: 0.8px;
   color: #000000;
   line-height: 1.15;
   text-transform: uppercase;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .candidate-title {
-  font-size: 12.5px;
+  font-size: 11.5px;
   font-weight: 600;
   color: #1f2937;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   letter-spacing: 0.2px;
 }
 
@@ -189,7 +189,7 @@ body {
 .header-divider {
   border: none;
   border-top: 1.5px solid #d1d5db;
-  margin: 10px 0 10px 0;
+  margin: 6px 0 6px 0;
 }
 
 /* Contact Badges Row */
@@ -197,8 +197,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 7px 16px;
-  font-size: 10.8px;
+  gap: 5px 14px;
+  font-size: 10.2px;
   color: #111827;
   font-weight: 500;
 }
@@ -232,8 +232,8 @@ body {
 
 .photo-wrapper {
   position: relative;
-  width: 82px;
-  height: 100px;
+  width: 76px;
+  height: 92px;
   border-radius: 3px;
   overflow: hidden;
   border: 1px solid #d1d5db;
@@ -275,36 +275,36 @@ body {
 .section-banner {
   border: 1.5px solid var(--border-dark);
   border-radius: 3px;
-  padding: 3px 0;
+  padding: 2.5px 0;
   text-align: center;
   font-weight: 800;
-  font-size: 11.5px;
+  font-size: 11px;
   letter-spacing: 0.9px;
   text-transform: uppercase;
   color: #000000;
   background-color: #ffffff;
-  margin: 10px 0 8px 0;
+  margin: 6px 0 4.5px 0;
 }
 
 /* Black-filled variant for select section banners (TECHNICAL SKILLS & BLOCKCHAIN PROJECTS) */
 .section-banner-filled {
   border: none;
   border-radius: 3px;
-  padding: 4px 0;
+  padding: 3px 0;
   text-align: center;
   font-weight: 800;
-  font-size: 11.5px;
+  font-size: 11px;
   letter-spacing: 0.9px;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #000000;
-  margin: 10px 0 8px 0;
+  margin: 6px 0 4.5px 0;
 }
 
 /* ================= Summary Section ================= */
 .summary-text {
-  font-size: 10.3px;
-  line-height: 1.48;
+  font-size: 9.8px;
+  line-height: 1.38;
   color: #262626;
   text-align: justify;
   margin-bottom: 2px;
@@ -314,15 +314,15 @@ body {
 .skills-container {
   display: flex;
   flex-direction: column;
-  gap: 4.5px;
-  margin-bottom: 3px;
+  gap: 3px;
+  margin-bottom: 2px;
 }
 
 .skill-category-row {
   display: flex;
   align-items: baseline;
-  font-size: 10.2px;
-  line-height: 1.4;
+  font-size: 9.8px;
+  line-height: 1.35;
 }
 
 .skill-cat-title {
@@ -340,35 +340,35 @@ body {
 
 /* ================= Experience Section ================= */
 .experience-block {
-  margin-bottom: 9px;
+  margin-bottom: 6px;
 }
 
 .exp-header-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  font-size: 11.5px;
+  font-size: 11.2px;
 }
 
 .exp-role {
   font-weight: 800;
   color: #000000;
-  font-size: 12px;
+  font-size: 11.5px;
 }
 
 .exp-date {
   font-weight: 600;
   color: #1f2937;
-  font-size: 10.8px;
+  font-size: 10.5px;
 }
 
 .exp-sub-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 10.8px;
-  margin-top: 2px;
-  margin-bottom: 4px;
+  font-size: 10.5px;
+  margin-top: 1.5px;
+  margin-bottom: 2.5px;
 }
 
 .exp-company {
@@ -415,20 +415,20 @@ body {
 
 .bullet-list li {
   position: relative;
-  padding-left: 14px;
-  font-size: 10px;
-  line-height: 1.4;
+  padding-left: 13px;
+  font-size: 9.6px;
+  line-height: 1.34;
   color: #1f2937;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
   text-align: justify;
 }
 
 .bullet-list li::before {
   content: '•';
   position: absolute;
-  left: 3px;
+  left: 2px;
   top: -1px;
-  font-size: 12.5px;
+  font-size: 11.5px;
   color: #111827;
 }
 
@@ -568,9 +568,9 @@ body {
 /* Page Indicator Watermark / Footer */
 .page-footer-number {
   position: absolute;
-  bottom: 6mm;
-  right: 17mm;
-  font-size: 8.5px;
+  bottom: 4mm;
+  right: 14mm;
+  font-size: 8px;
   color: #9ca3af;
   font-weight: 500;
 }
@@ -599,7 +599,7 @@ body {
     height: 297mm !important;
     min-height: 297mm !important;
     max-height: 297mm !important;
-    padding: 13mm 16mm 13mm 16mm !important;
+    padding: 9mm 14mm 8mm 14mm !important;
     box-shadow: none !important;
     border-radius: 0 !important;
     page-break-after: always;

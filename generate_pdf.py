@@ -16,7 +16,7 @@ def generate_pdf():
         "--disable-gpu",
         "--no-pdf-header-footer",
         f"--print-to-pdf={OUTPUT_PDF}",
-        "http://localhost:3030"
+        f"file://{PROJECT_DIR}/index.html"
     ]
     res = subprocess.run(cmd, capture_output=True, text=True)
     if os.path.exists(OUTPUT_PDF) and os.path.getsize(OUTPUT_PDF) > 0:

@@ -20,13 +20,14 @@ BACKEND, APIs & DATA: TypeScript, JavaScript, Node.js, Go, Fastify, Express.js, 
 
 FRONTEND & MOBILE: React, Next.js, React Native, Redux Toolkit, Material UI, Tailwind CSS, Vite, Expo, React Native Paper
 
-INFRASTRUCTURE, DEPLOYMENT & SECURITY: Docker, Kubernetes, Nginx, DigitalOcean, Grafana, Prometheus, Jest, smart contract security review, vulnerability analysis, JWT, OAuth 2.0, biometric authentication, role-based access control
+INFRASTRUCTURE, DEPLOY & SECURITY: Docker, Kubernetes, Nginx, DigitalOcean, Grafana, Prometheus, Jest, smart contract security review, vulnerability analysis, JWT, OAuth 2.0, biometric authentication, role-based access control
 
 ## PROFESSIONAL EXPERIENCE
 
 ### Blockchain Developer - EtherAuthority
 
 Remote  
+Website: https://etherauthority.io  
 Full-time - December 2025 - June 2026  
 Project-Based - July 2026 - Present
 
@@ -54,7 +55,7 @@ Product status: Pre-launch development
 ### Sovereign - Cosmos SDK EVM-Compatible Blockchain
 
 Independent Lead Developer
-Status: Final testing; preparing for planned market launch
+Status: Final testing; preparing for launch
 
 GitHub: https://github.com/majednitol/Sovereign-Layer-2-blockchain-
 
@@ -73,10 +74,12 @@ Technologies: Go, Cosmos SDK, CometBFT, Cosmos EVM, Rust, CosmWasm, Solidity, Fo
 ### DeFiApps - Multi-Module DeFi Ecosystem
 
 GitHub: https://github.com/majednitol/defi-apps
+Status: Sepolia Testnet
 
-- Built a full-stack DeFi platform covering AMM swaps, yield farming, staking, lending, over-collateralized loans, and multisig treasury management.
-- Deployed four Solidity smart contracts to Ethereum Sepolia and implemented 2-of-3 Gnosis Safe governance for proposal approval, multi-party signing, and treasury execution.
-- Developed price-oracle and health-factor monitoring, liquidation-risk signals, on-chain event listeners, Fastify/Redis services, and React dashboards.
+- Built a full-stack DeFi platform featuring an AMM for token swaps with low slippage, liquidity provision (earning swap fees), dynamic yield farming, staking, and LP reward harvesting.
+- Implemented lending and borrowing for over-collateralized loans with price-oracle valuation, dynamic health-factor monitoring, and liquidation-risk signals.
+- Deployed four Solidity smart contracts to Ethereum Sepolia and integrated a 2-of-3 Gnosis Safe multisig vault for protocol treasury security, on-chain proposal approvals, and multi-party signing.
+- Developed high-performance Fastify APIs with JSON-RPC optimization, Redis caching, real-time on-chain event listeners, and React 18 dashboards for unified position and treasury analytics.
 
 Technologies: Solidity 0.8.24, Hardhat, OpenZeppelin, Ethers.js v6, Gnosis Safe, Fastify, Redis, React 18, Material UI
 
