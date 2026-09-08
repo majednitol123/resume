@@ -2,9 +2,8 @@
 
 Blockchain Developer | Solidity/EVM, Solana/Rust & Web3 Backend
 
-Dhaka, Bangladesh | +880 1825 947056 | majednitol708@gmail.com  
-LinkedIn: https://www.linkedin.com/in/md-majedur-rahman-348a46355  
-GitHub: https://github.com/majednitol
++880 1825 947056 | majednitol708@gmail.com | LinkedIn: https://www.linkedin.com/in/md-majedur-rahman-348a46355  
+GitHub: https://github.com/majednitol | Dhaka, Bangladesh
 
 ## PROFESSIONAL SUMMARY
 
@@ -117,11 +116,11 @@ Technologies: React Native, Expo, TypeScript, Redux Toolkit, Redux Persist, Asyn
 
 ## AWARDS & RECOGNITION
 
-- Top 15 — Startup World Cup, Las Vegas, USA | 2026
-- Award of Merit — International Blockchain Olympiad (IBCOL) | 2024
-- Finalist and Honorable Mention — Bangladesh Blockchain Olympiad | 2023, 2024
-- 1st Runner-Up — Spark Business Competition | 2024
-- 2nd Runner-Up — Business Idea Competition | 2023
+- **Top 15** — **Startup World Cup**, **Las Vegas, USA** | 2026
+- **Award of Merit** — **International Blockchain Olympiad (IBCOL)**, **Amsterdam, Netherlands** | 2024
+- **Finalist and Honorable Mention** — **Bangladesh Blockchain Olympiad** | 2023, 2024
+- **1st Runner-Up** — **Spark Business Competition** | 2024
+- **2nd Runner-Up** — **Business Idea Competition** | 2023
 
 ## EDUCATION
 
