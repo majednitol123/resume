@@ -87,12 +87,12 @@ Technologies: Solidity 0.8.24, Hardhat, OpenZeppelin, Ethers.js v6, Gnosis Safe,
 GitHub: https://github.com/majednitol/Solana-Dex-Token-Ecosystem
 Status: Deployed to Solana mainnet
 
-- Built an end-to-end Solana DEX, token launchpad, Squads v4 governance, and automated liquidity ecosystem using Anchor/Rust smart contracts and a TypeScript SDK.
-- Implemented versioned transactions with Address Lookup Tables, configurable priority fees, WebSocket signature confirmation, and Jito bundle submission.
-- Built a Fastify REST API with PostgreSQL, Redis caching, and background workers for swaps, token creation, liquidity, price feeds, metrics, governance, referrals, and automated fee collection.
-- Integrated Orca Whirlpools, Raydium pools, Irys and Arweave metadata storage, and Solana Token-2022 functionality; deployed the system to Solana mainnet.
+- Built an end-to-end Solana DEX and token launchpad deployed to Solana mainnet, featuring 2 unified dashboards (User trading terminal and Admin governance portal), Anchor/Rust smart contracts, and a TypeScript SDK.
+- Architected the Admin portal allowing privileged users to mint 11 tokens, create Squads v4 multisig vaults, configure tiered roles (Owner, Super Admin, Regular Admin), create pools, add liquidity via Orca and Raydium, and submit multisig proposals.
+- Implemented high-performance Fastify REST APIs with PostgreSQL and Redis caching, supporting token swaps, a multi-tier referral bonus reward system, real-time price feeds, and automated fee-harvesting background workers.
+- Integrated versioned transactions (v0) with Address Lookup Tables, Jito MEV bundle submission, WebSocket signature confirmation, and Irys/Arweave metadata storage for SPL and Token-2022 assets.
 
-Technologies: Solana, Anchor, Rust, TypeScript, Node.js, SPL Tokens, Token-2022, Orca Whirlpools, Program Derived Addresses (PDAs), Fastify, PostgreSQL, Redis, Docker
+Technologies: Solana, Anchor, Rust, TypeScript, Squads v4, Orca Whirlpools, Raydium, Fastify, PostgreSQL, Redis, Token-2022, Jito, Docker
 
 ### NFT Nexus - Multi-Chain Real-Time NFT Marketplace
 
